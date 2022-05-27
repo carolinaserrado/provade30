@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "image/x-icon" href="logo1.icon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Imc</title>
+
+</head>
+
+<body id="IMC">
+
+    <header>
+        
+        <img id="logo" src="./img/icons/hp8.png"> 
+        
+    </header>
+
+    <nav>
+        <ul class="menu-principal">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="2.html"> News</a></li>
+            <li><a href="3.html"> About</a></li>
+            <li><a href="4.html"> Imc</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-result">
+        <div id="calc-imc">
+            <input id="peso" type="text">
+            <label for="peso">Insira o peso (Kg) :</label>
+            <input id="altura" type="text">
+            <label for="altura">Insira a altura (m) :</label>
+            <button id="btnCalcular">CALCULAR</button>
+            <br>
+            <button id="btnLimpar">LIMPAR</button>
+        </div>
+
+        <aside class="result">
+            <h2>Resultado:</h2>
+            <div>
+                <p id="resultado"></p>
+            </div>
+            <img src="./img/icons/footer.png">
+        </aside>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

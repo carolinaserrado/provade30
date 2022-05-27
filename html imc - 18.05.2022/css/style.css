@@ -1,0 +1,379 @@
+body{
+    font-family:'Trebuchet MS';
+    letter-spacing:3px;
+    word-spacing:1.2px;
+    background-image:linear-gradient(rgb(2, 2, 57), purple);
+    overflow-x: hidden;
+}
+
+body#IMC{
+    background-image: url("../img/icons/hp14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+
+#logo {
+height:90px;
+align-items: center;
+padding: 15px 40px;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px;
+    color: white;
+    
+}
+
+header h1 {
+color: black;
+font-size: 30px;
+font-weight: bolder; 
+
+}
+
+.menu-principal{
+background-color: black;
+font-family: 'Courier New';
+font-size:28px; 
+font-weight:bolder;
+letter-spacing: 5px;
+padding: 14px 16px;
+margin: 25px 0; 
+text-align: center;
+height:45px;
+width: 60%;
+
+
+}
+
+.menu-principal li{
+display:flex; 
+display:inline-table; 
+
+}
+
+.menu-principal a{
+color:whitesmoke; 
+padding: 44px;
+}
+
+.menu-principal ahover{
+color: darkblue; 
+font-size: 28px;
+text-decoration:underline;
+
+
+}
+#Harry img{
+    align-self: center;
+    margin: 50px;
+}
+
+#Harry{
+text-align: center;
+color: rgb(0, 0, 0);
+display:inline-block;
+width: 75%;
+box-sizing: border-box;
+height: 100%; 
+}
+
+#Harry{ 
+max-width:700px; 
+margin: 50px 80px -60px 0px;
+}
+
+#Harry p{
+
+font-size: 18px; 
+margin-left: 200px;
+text-indent: 4em; 
+text-align: center;
+align-items: center;
+line-height:1.8em;
+padding: 2px 80px; 
+width:100%;
+font-weight: bold; 
+}
+
+h1{
+    padding: 40px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.potter p{ 
+float: center; 
+width: 100%;
+}
+
+#potter audio{
+    align-items: center;
+}
+
+#potter img{
+max-width: 650px; 
+margin-left: 400px; 
+margin: 800;
+padding-top: 20px;
+align-items: center;
+
+}
+
+.footer-content{ 
+font-size:18px; 
+color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center; 
+margin: 50px 0px 20px; 
+width: 100%; 
+
+}
+
+.footer-content img {
+width: 40px; 
+margin-right:20px; 
+
+} 
+
+/*SOBRE
+.about{ 
+background-image: url(./img/icons/hp/jpg);
+background-position: left bottom, right top;
+background-repeat: no-repeat, repeat; 
+background-size: cover;
+padding: 80px 0px;
+width: 100%;*/
+
+body#About{
+    background-image: url("../img/icons/hp16.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.potter p{
+    text-align: center;
+}
+
+.potter{
+align-items: center;
+}
+
+
+#content-about{
+text-align: center;
+color: beige;
+display: inline-flexbox;
+width: 40%; 
+box-sizing:content-box;
+height: 100%;
+
+
+}
+
+#content-about p{
+    font-size: 18px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 2px 80px;
+    display: inline-table;
+    width: 100%;
+    font-style: italic;
+}
+
+#content-about h3{
+    color: whitesmoke;
+    font-family: 'Verdana';
+    font-size: 40px; 
+    font-weight: 600;
+    /*margin-right: 40px;*/
+}
+
+body#news{
+    background-image: url("../img/icons/hp13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novidades {
+    padding: 50px;
+    text-align: left;
+    background-color: (116, 0,1);
+    ;
+    
+}
+
+#content-novidades h1{
+    font-size: 37px;
+    border:rgb(116, 9, 5);
+    border-style: dashed;
+
+}
+.novidades hr{
+    width: 70px; 
+    height: 5px; 
+    margin: 0 px 15% 40%; 
+
+}
+
+#content-novidades{
+    text-align: left;
+    align-content: left;
+    align-self: right;
+}
+
+#content-novidades article{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: right;
+    align-items: left;
+}
+
+#content-novidades h3{
+    color:white; 
+    font-size: 35px;
+    font-style: oblique;
+    margin: 5px 5px 20px; 
+    
+
+}
+
+#content-novidades p{ 
+    /*background-color: rgb(179, 81, 179, 0.3);*/
+    font-size: 16px;
+    color: beige;
+    margin: -10px 0px;
+    text-indent: 0em;
+    text-align: unset;
+    line-height: 1.5em;
+    padding: 12px 20px;
+    display:inline-flex;
+    width: 45%;
+    font-weight: bold;
+    border-radius: 100%;
+    border-color: chocolate;
+
+
+}
+
+#content-novidades img{
+    max-width:300px;
+    height: 200px;
+    margin:20px;
+}
+
+#calc-imc{
+    border: black;
+    border-style: inset;
+    background-size: 2px;
+    background-color:rgb(122, 2, 2);
+    display: flex; 
+    flex-wrap: wrap;
+    flex-flow: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 30px; 
+    width: 40%;
+    height: 330px;
+    margin: 120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#calc-imc input{
+    width: 60px; 
+    height: 40px;
+    margin: 10px 5px 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+#calc-imc label{
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#calc-imc button{
+    width: 60%; 
+    font-size: 19px;
+    text-align: left; 
+    font-weight: bold;
+    padding: 7px 0 px 5px;
+    color:rgb(158, 62, 24);
+    margin-top: auto;
+    border-radius: 14px;
+    border:none;
+    position: relative;
+
+}
+
+#calc-imc button:hover{
+    color:rgb(116, 9, 5); 
+    text-align: center;
+    background-color: rgb(202, 202, 202); 
+    
+}
+
+.result{
+    width: 50%;
+    height: 200px; 
+    padding: 40px; 
+    display: flex;
+    flex-flow: column; 
+    align-items: left;
+    text-align: center;
+    margin: 118px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 50px;
+    text-align: left;
+    background-color: rgb(122, 2, 2);
+}
+
+.result h2{
+    font-size: 26px; 
+    font-family: 'Segoe UI';
+    margin-bottom: 37px;
+
+}
+
+.result div {
+    background-color: beige;
+    align-items: center;
+    max-width: 600px;
+    padding: 10px 15px;
+    height: 900px;
+    display: inline-block;
+
+}
+
+.page-result {
+    display: flex; 
+}
+.result img{
+    width:160px; 
+    margin: 12px; 
+    display: inline-block;
+}
+
